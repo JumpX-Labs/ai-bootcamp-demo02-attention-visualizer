@@ -67,6 +67,13 @@ npm run dev
 
 如果你对本项目背后的完整课程体系感兴趣，欢迎关注我们的实战营。
 
+<div align="center">
+  <img src="src/assets/post_1.jpg" alt="Course Intro 1" width="48%" />
+  <img src="src/assets/post_2.jpg" alt="Course Intro 2" width="48%" />
+  <img src="src/assets/post_3.jpg" alt="Course Intro 3" width="48%" />
+  <img src="src/assets/post_4.jpg" alt="Course Intro 4" width="48%" />
+</div>
+
 ---
 ---
 
