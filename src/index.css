@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon: #ccff00;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  background-color: #f4f4f5; /* zinc-100 */
+  color: #000000;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Custom scrollbar for terminal */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: #000;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: #333;
+  border: 1px solid #ccff00;
+}
+
+.brutalist-shadow {
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+}
+.brutalist-shadow-sm {
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+}
+.brutalist-shadow-hover:hover {
+  box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+  transform: translate(4px, 4px);
+}
