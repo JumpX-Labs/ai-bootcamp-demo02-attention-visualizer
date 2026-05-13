@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { PRESET_DATA } from './data';
 import { AttentionVisualizer } from './components/AttentionVisualizer';
 import { LessonModal } from './components/LessonModal';
-import { Terminal, FileText } from 'lucide-react';
+import { Terminal, FileText, Github } from 'lucide-react';
 
 function App() {
   const [activeSentenceId, setActiveSentenceId] = useState(PRESET_DATA[0].sentenceId);
@@ -56,6 +56,17 @@ function App() {
               <FileText className="w-5 h-5" />
               查看配套教案
             </button>
+
+            <a
+              href="https://github.com/JumpX-Labs/ai-bootcamp-demo02-attention-visualizer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-2 px-4 py-2 bg-black text-white border-2 border-black font-black uppercase tracking-widest brutalist-shadow-hover transition-all hover:-translate-y-1 hover:-translate-x-1 active:translate-x-0 active:translate-y-0 active:shadow-none"
+              title="View source on GitHub"
+            >
+              <Github className="w-5 h-5" />
+              Source
+            </a>
           </div>
         </div>
       </header>

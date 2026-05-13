@@ -1,5 +1,7 @@
 # 👁️ 熊布朗的 AI 实践课 Demo 02: Transformer 注意力可视化引擎 (Attention Visualizer)
 
+🔴 **在线体验：[https://ai-bootcamp-demo02-attention-visualizer.pages.dev](https://ai-bootcamp-demo02-attention-visualizer.pages.dev)**
+
 [🌍 Read this in English](#english-version)
 
 ## 📖 这是什么？
